@@ -1,6 +1,6 @@
 :root {
-  --main-color: #ce0000;
-  --secondary-color: #f8f8f8;
+  --main-color: #65ac00;
+  --secondary-color: #000000;
 }
 
 html {
@@ -13,16 +13,9 @@ html {
 }
 
 body {
-  background-image: url('../image/background_laptop.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  font-weight: bolder;
   margin: 0;
   padding: 0;
-  font-family: 'DroidKufi';
-  background-color: #ce0000;
+  background-color: var(--main-color);
 }
 
 @media (max-width: 768px) {
@@ -45,6 +38,7 @@ body {
    display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
 .header .container {
@@ -76,13 +70,13 @@ body {
 }
 
 .header .container .name {
-  color: var(--main-color);
+  color: #000;
   padding: 0;
   margin: 0;
 }
 
 .header .container .name span {
-  color: var(--main-color);
+  color: #000;
     padding: 0;
   margin: 0;
 }
@@ -95,7 +89,7 @@ body {
 
   .header img {
     width: 50px;
-   
+
   }
 
   .header .container .name {
@@ -118,13 +112,13 @@ body {
   direction: rtl;
   width: 100%;
   font-weight: 900;
-  color: #ffffff;
+  color: #000000;
 }
 
 .profile .image img {
   width: 200px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   margin-bottom: 20px;
 }
 
@@ -133,7 +127,7 @@ body {
   font-size: 25px;
   line-height: 0.1;
   font-weight: 900;
-  color: #ffffff;
+  color: #000000;
 }
 @media (max-width: 500px) {
   .profile .text p {
@@ -159,7 +153,7 @@ body {
     font-size: 30px;
     font-weight: 900;
     line-height: 30px;
-    color: #ffffff;
+    color: #000000;
     display: none;
   }
 }
@@ -171,7 +165,7 @@ body {
 
 .profile .icon i {
   font-size: 30px;
-  color: #fff;
+  color: #000000;
 }
 @media (max-width: 500px) {
   body {
@@ -184,12 +178,13 @@ body {
   .profile .icon i {
     font-size: 35px;
     font-weight: 900;
-    color: #ffffff;
-  }
+   }
 }
 .profile .icon i:hover {
   font-size: 40px;
   color: #000000;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 /* start   contant */
@@ -208,7 +203,7 @@ body {
   width: 100%;
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -222,9 +217,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #fff 2px solid;
+  border: #000000 2px solid;
   border-radius: 100px;
-  background-color: #0000007d;
+  background-color: #ffffff;
 }
 
 .contant .col:hover span {
@@ -301,7 +296,7 @@ body {
     color: var(--secondary-color);
   }
 
- 
+
   .time {
       margin-bottom: 0px;
   }

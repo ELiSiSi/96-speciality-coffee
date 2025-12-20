@@ -1,6 +1,6 @@
 :root {
-  --main-color: #ce0000;
-  --secondary-color: #ffffff;
+ --main-color: #65ac00;
+  --secondary-color: #000000;
 }
 
 html {
@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
- 
+
 .container {
   width: 90%;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .header .container .name {
-  color: var(--main-color);
+  color:#000;
 }
 
 @media (max-width: 768px) {
@@ -114,7 +114,7 @@ body {
   margin-top: 50px;
   display: grid;
 
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 
   gap: 0px;
 }
