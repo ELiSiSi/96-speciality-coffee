@@ -13,14 +13,21 @@ html {
 }
 
 body {
+  background-image: url('../image/background_laptop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-weight: bolder;
   margin: 0;
   padding: 0;
-  background-color: var(--secondary-color);
+  font-family: 'DroidKufi';
+  background-color: #000000;
 }
 
 @media (max-width: 768px) {
   body {
-    background-image: url('../image/background_phone.jpeg');
+    background-image: url('../image/background_phone.png');
   }
 }
 
